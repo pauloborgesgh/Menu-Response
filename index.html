@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Style.css">
+    <title>Menu Responsivo</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="logotipo"><a href="#"></a>Nav Bar</li>
+            <li class="hideMobile"><a href="#">Projeto</a></li>
+            <li class="hideMobile"><a href="#">Post</a></li>
+            <li class="hideMobile"><a href="#">Imagens</a></li>
+            <li class="hideMobile"><a href="#">Contato</a></li>
+            <li  class="hideDesktop" onclick=MostrarSideBar()><a href="">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+            </a></li>
+            
+        </ul>
+
+        <ul class="sidebar">
+            <li onclick=EsconderSideBar()><a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m336-280-56-56 144-144-144-143 56-56 144 144 143-144 56 56-144 143 144 144-56 56-143-144-144 144Z"/></svg>
+            </a></li>
+            <li><a href="#">Projeto</a></li>
+            <li><a href="#">Post</a></li>
+            <li><a href="#">Imagens</a></li>
+            <li><a href="#">Contato</a></li>
+            
+        </ul>
+    </nav>
+ <script src="Script/Script.js"></script>
+</body>
+</html>
